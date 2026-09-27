@@ -252,7 +252,7 @@ private: System::Void ñîçäàòüToolStripMenuItem_Click(System::Object^ sender, Sys
 		textBox1->Clear();
 		filepath = String::Empty;
 	}
-
+	redacted = false;
 }
 private: System::Void îòêğûòüToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (redacted == true)
@@ -286,6 +286,7 @@ private: System::Void îòêğûòüToolStripMenuItem_Click(System::Object^ sender, Sys
 			MessageBox::Show("êàêèì îáğàçîì?");
 		}
 	}
+	redacted = false;
 }
 private: System::Void ñîõğàíèòüToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 
@@ -297,11 +298,13 @@ private: System::Void ñîõğàíèòüToolStripMenuItem_Click(System::Object^ sender, S
 			array<String^>^ lines = this->textBox1->Lines;
 			System::IO::File::WriteAllLines(saveFileDialog1->FileName, lines);
 		}
+		redacted = false;
 	}
 	catch (const System::Exception^ ex)
 	{
 		MessageBox::Show("îøèáêà ñîõğàíåíèÿ!");
 	}
+
 }
 private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	redacted = true;
