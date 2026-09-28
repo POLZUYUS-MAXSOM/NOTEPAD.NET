@@ -180,4 +180,7 @@
     <value>Все текстовые форматы (*.txt;*.setting;*.cpp;*.h;*.hpp;*.c;*.cs;*.py;*.java;*.js;*.ts;*.go;*.vmf;*.vmt;*.vdf;*.qc;*.smd;*.dmx;*.rb;*.php;*.html;*.css;*.json;*.xml;*.ini;*.cfg;*.conf;*.yaml;*.yml;*.md;*.bat;*.sh;*.ps1;*.log;*.sql;*.csv;*.tsv;*.asm;*.s)|*.txt;*.setting;*.cpp;*.h;*.hpp;*.c;*.cs;*.py;*.java;*.js;*.ts;*.go;*.vmf;*.vmt;*.vdf;*.qc;*.smd;*.dmx;*.rb;*.php;*.html;*.css;*.json;*.xml;*.ini;*.cfg;*.conf;*.yaml;*.yml;*.md;*.bat;*.sh;*.ps1;*.log;*.sql;*.csv;*.tsv;*.asm;*.s|SOURCE MODDING (Текстовые) (*.vmf;*.vmt;*.vdf;*.qc;*.smd;*.dmx)|*.vmf;*.vmt;*.vdf;*.qc;*.smd;*.dmx|Документы, логи, данные (*.txt;*.log;*.md;*.csv;*.tsv)|*.txt;*.log;*.md;*.csv;*.tsv|Конфигурации и настройки (*.setting;*.ini;*.cfg;*.conf;*.json;*.xml;*.vdf;*.yaml;*.yml)|*.setting;*.ini;*.cfg;*.conf;*.json;*.xml;*.vdf;*.yaml;*.yml|С++ / C / Ассемблер (*.cpp;*.h;*.hpp;*.c;*.asm;*.s)|*.cpp;*.h;*.hpp;*.c;*.asm;*.s|Другие языки (*.py;*.cs;*.java;*.go;*.rb)|*.py;*.cs;*.java;*.go;*.rb|Веб и скрипты автоматизации (*.html;*.css;*.js;*.ts;*.php;*.bat;*.sh;*.ps1)|*.html;*.css;*.js;*.ts;*.php;*.bat;*.sh;*.ps1|Все файлы (*.*)|*.*
 </value>
   </data>
+  <metadata name="fontDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>473, 17</value>
+  </metadata>
 </root>
