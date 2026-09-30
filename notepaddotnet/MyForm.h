@@ -60,6 +60,22 @@ namespace notepaddotnet {
 	private: System::Windows::Forms::ToolStripMenuItem^ ÒÓı‡ÌËÚ¸ToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^ ¯ËÙÚToolStripMenuItem;
 	private: System::Windows::Forms::FontDialog^ fontDialog1;
+	private: System::Windows::Forms::ToolStripMenuItem^ Ô‡‚Í‡ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ ÍÓÔËÓ‚‡Ú¸ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripSeparator^ toolStripSeparator2;
+	private: System::Windows::Forms::ToolStripMenuItem^ ‚ÒÚ‡‚ËÚ¸ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ ‚˚ÂÁ‡Ú¸toolStripMenuItem1;
+	private: System::Windows::Forms::MenuStrip^ menuStrip2;
+	private: System::Windows::Forms::ToolStripMenuItem^ ÒËÏ‚ÓÎÓ‚ToolStripMenuItem2;
+
+	private: System::Windows::Forms::ToolStripMenuItem^ count2;
+	private: System::Windows::Forms::ToolStripMenuItem^ ÒËÏ‚ÓÎÓ‚toolStripMenuItem;
+
+	private: System::Windows::Forms::ToolStripMenuItem^ count;
+
+
+
+
 	private: System::ComponentModel::IContainer^ components;
 
 	protected:
@@ -90,30 +106,42 @@ namespace notepaddotnet {
 			this->ÒÂ‚ËÒToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->Ì‡ÒÚÓÈÍËToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->¯ËÙÚToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->Ô‡‚Í‡ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ÍÓÔËÓ‚‡Ú¸ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->‚ÒÚ‡‚ËÚ¸ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->toolStripSeparator2 = (gcnew System::Windows::Forms::ToolStripSeparator());
+			this->‚˚ÂÁ‡Ú¸toolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
 			this->lol = (gcnew System::Windows::Forms::ContextMenuStrip(this->components));
 			this->ÚÛÚÕË˜Â„ÓÕÂÚToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->openFileDialog1 = (gcnew System::Windows::Forms::OpenFileDialog());
 			this->saveFileDialog1 = (gcnew System::Windows::Forms::SaveFileDialog());
 			this->fontDialog1 = (gcnew System::Windows::Forms::FontDialog());
+			this->menuStrip2 = (gcnew System::Windows::Forms::MenuStrip());
+			this->ÒËÏ‚ÓÎÓ‚toolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->count = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ÒËÏ‚ÓÎÓ‚ToolStripMenuItem2 = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->count2 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->menuStrip1->SuspendLayout();
 			this->lol->SuspendLayout();
+			this->menuStrip2->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// menuStrip1
 			// 
-			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(2) {
+			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
 				this->Ù‡ÈÎToolStripMenuItem,
-					this->ÒÂ‚ËÒToolStripMenuItem
+					this->ÒÂ‚ËÒToolStripMenuItem, this->Ô‡‚Í‡ToolStripMenuItem
 			});
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
 			this->menuStrip1->Size = System::Drawing::Size(632, 24);
 			this->menuStrip1->TabIndex = 0;
-			this->menuStrip1->Text = L"menuStrip1";
+			this->menuStrip1->Text = L"œ‡‚ÍË";
 			// 
 			// Ù‡ÈÎToolStripMenuItem
 			// 
+			this->Ù‡ÈÎToolStripMenuItem->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->Ù‡ÈÎToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(6) {
 				this->ÒÓÁ‰‡Ú¸ToolStripMenuItem,
 					this->ÓÚÍ˚Ú¸ToolStripMenuItem, this->toolStripSeparator, this->ÒÓı‡ÌËÚ¸ToolStripMenuItem, this->toolStripSeparator1, this->‚˚ıÓ‰ToolStripMenuItem
@@ -176,6 +204,7 @@ namespace notepaddotnet {
 			// 
 			// ÒÂ‚ËÒToolStripMenuItem
 			// 
+			this->ÒÂ‚ËÒToolStripMenuItem->BackColor = System::Drawing::SystemColors::ControlLight;
 			this->ÒÂ‚ËÒToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(2) {
 				this->Ì‡ÒÚÓÈÍËToolStripMenuItem,
 					this->¯ËÙÚToolStripMenuItem
@@ -202,6 +231,47 @@ namespace notepaddotnet {
 			this->¯ËÙÚToolStripMenuItem->Text = L"ÿËÙÚ";
 			this->¯ËÙÚToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::¯ËÙÚToolStripMenuItem_Click);
 			// 
+			// Ô‡‚Í‡ToolStripMenuItem
+			// 
+			this->Ô‡‚Í‡ToolStripMenuItem->BackColor = System::Drawing::SystemColors::ControlLight;
+			this->Ô‡‚Í‡ToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(4) {
+				this->ÍÓÔËÓ‚‡Ú¸ToolStripMenuItem,
+					this->‚ÒÚ‡‚ËÚ¸ToolStripMenuItem, this->toolStripSeparator2, this->‚˚ÂÁ‡Ú¸toolStripMenuItem1
+			});
+			this->Ô‡‚Í‡ToolStripMenuItem->Name = L"Ô‡‚Í‡ToolStripMenuItem";
+			this->Ô‡‚Í‡ToolStripMenuItem->ShortcutKeyDisplayString = L"";
+			this->Ô‡‚Í‡ToolStripMenuItem->Size = System::Drawing::Size(59, 20);
+			this->Ô‡‚Í‡ToolStripMenuItem->Text = L"&œ‡‚Í‡";
+			// 
+			// ÍÓÔËÓ‚‡Ú¸ToolStripMenuItem
+			// 
+			this->ÍÓÔËÓ‚‡Ú¸ToolStripMenuItem->Name = L"ÍÓÔËÓ‚‡Ú¸ToolStripMenuItem";
+			this->ÍÓÔËÓ‚‡Ú¸ToolStripMenuItem->ShortcutKeys = static_cast<System::Windows::Forms::Keys>((System::Windows::Forms::Keys::Control | System::Windows::Forms::Keys::C));
+			this->ÍÓÔËÓ‚‡Ú¸ToolStripMenuItem->Size = System::Drawing::Size(190, 22);
+			this->ÍÓÔËÓ‚‡Ú¸ToolStripMenuItem->Text = L"& ÓÔËÓ‚‡Ú¸";
+			this->ÍÓÔËÓ‚‡Ú¸ToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::ÍÓÔËÓ‚‡Ú¸ToolStripMenuItem_Click);
+			// 
+			// ‚ÒÚ‡‚ËÚ¸ToolStripMenuItem
+			// 
+			this->‚ÒÚ‡‚ËÚ¸ToolStripMenuItem->Name = L"‚ÒÚ‡‚ËÚ¸ToolStripMenuItem";
+			this->‚ÒÚ‡‚ËÚ¸ToolStripMenuItem->ShortcutKeys = static_cast<System::Windows::Forms::Keys>((System::Windows::Forms::Keys::Control | System::Windows::Forms::Keys::V));
+			this->‚ÒÚ‡‚ËÚ¸ToolStripMenuItem->Size = System::Drawing::Size(190, 22);
+			this->‚ÒÚ‡‚ËÚ¸ToolStripMenuItem->Text = L"&¬ÒÚ‡‚ËÚ¸";
+			this->‚ÒÚ‡‚ËÚ¸ToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::‚ÒÚ‡‚ËÚ¸ToolStripMenuItem_Click);
+			// 
+			// toolStripSeparator2
+			// 
+			this->toolStripSeparator2->Name = L"toolStripSeparator2";
+			this->toolStripSeparator2->Size = System::Drawing::Size(187, 6);
+			// 
+			// ‚˚ÂÁ‡Ú¸toolStripMenuItem1
+			// 
+			this->‚˚ÂÁ‡Ú¸toolStripMenuItem1->Name = L"‚˚ÂÁ‡Ú¸toolStripMenuItem1";
+			this->‚˚ÂÁ‡Ú¸toolStripMenuItem1->ShortcutKeys = static_cast<System::Windows::Forms::Keys>((System::Windows::Forms::Keys::Control | System::Windows::Forms::Keys::X));
+			this->‚˚ÂÁ‡Ú¸toolStripMenuItem1->Size = System::Drawing::Size(190, 22);
+			this->‚˚ÂÁ‡Ú¸toolStripMenuItem1->Text = L"&¬˚ÂÁ‡Ú¸";
+			this->‚˚ÂÁ‡Ú¸toolStripMenuItem1->Click += gcnew System::EventHandler(this, &MyForm::‚˚ÂÁ‡Ú¸toolStripMenuItem1_Click);
+			// 
 			// textBox1
 			// 
 			this->textBox1->AcceptsTab = true;
@@ -209,10 +279,11 @@ namespace notepaddotnet {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->textBox1->ContextMenuStrip = this->lol;
-			this->textBox1->Location = System::Drawing::Point(0, 27);
+			this->textBox1->Location = System::Drawing::Point(-1, 27);
+			this->textBox1->MaxLength = 2147483640;
 			this->textBox1->Multiline = true;
 			this->textBox1->Name = L"textBox1";
-			this->textBox1->Size = System::Drawing::Size(632, 321);
+			this->textBox1->Size = System::Drawing::Size(632, 294);
 			this->textBox1->TabIndex = 1;
 			this->textBox1->TextChanged += gcnew System::EventHandler(this, &MyForm::textBox1_TextChanged);
 			// 
@@ -239,6 +310,44 @@ namespace notepaddotnet {
 			// 
 			this->saveFileDialog1->Filter = resources->GetString(L"saveFileDialog1.Filter");
 			// 
+			// menuStrip2
+			// 
+			this->menuStrip2->BackColor = System::Drawing::SystemColors::ActiveCaption;
+			this->menuStrip2->Dock = System::Windows::Forms::DockStyle::Bottom;
+			this->menuStrip2->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(4) {
+				this->ÒËÏ‚ÓÎÓ‚toolStripMenuItem,
+					this->count, this->ÒËÏ‚ÓÎÓ‚ToolStripMenuItem2, this->count2
+			});
+			this->menuStrip2->Location = System::Drawing::Point(0, 324);
+			this->menuStrip2->Name = L"menuStrip2";
+			this->menuStrip2->Size = System::Drawing::Size(632, 24);
+			this->menuStrip2->TabIndex = 2;
+			this->menuStrip2->Text = L"menuStrip2";
+			// 
+			// ÒËÏ‚ÓÎÓ‚toolStripMenuItem
+			// 
+			this->ÒËÏ‚ÓÎÓ‚toolStripMenuItem->Name = L"ÒËÏ‚ÓÎÓ‚toolStripMenuItem";
+			this->ÒËÏ‚ÓÎÓ‚toolStripMenuItem->Size = System::Drawing::Size(79, 20);
+			this->ÒËÏ‚ÓÎÓ‚toolStripMenuItem->Text = L"—ËÏ‚ÓÎÓ‚:";
+			// 
+			// count
+			// 
+			this->count->Name = L"count";
+			this->count->Size = System::Drawing::Size(25, 20);
+			this->count->Text = L"0";
+			// 
+			// ÒËÏ‚ÓÎÓ‚ToolStripMenuItem2
+			// 
+			this->ÒËÏ‚ÓÎÓ‚ToolStripMenuItem2->Name = L"ÒËÏ‚ÓÎÓ‚ToolStripMenuItem2";
+			this->ÒËÏ‚ÓÎÓ‚ToolStripMenuItem2->Size = System::Drawing::Size(67, 20);
+			this->ÒËÏ‚ÓÎÓ‚ToolStripMenuItem2->Text = L"¿·Á‡ˆÂ‚:";
+			// 
+			// count2
+			// 
+			this->count2->Name = L"count2";
+			this->count2->Size = System::Drawing::Size(25, 20);
+			this->count2->Text = L"0";
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
@@ -246,6 +355,7 @@ namespace notepaddotnet {
 			this->ClientSize = System::Drawing::Size(632, 348);
 			this->Controls->Add(this->textBox1);
 			this->Controls->Add(this->menuStrip1);
+			this->Controls->Add(this->menuStrip2);
 			this->MainMenuStrip = this->menuStrip1;
 			this->MinimumSize = System::Drawing::Size(648, 387);
 			this->Name = L"MyForm";
@@ -254,6 +364,8 @@ namespace notepaddotnet {
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
 			this->lol->ResumeLayout(false);
+			this->menuStrip2->ResumeLayout(false);
+			this->menuStrip2->PerformLayout();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -332,6 +444,8 @@ private: System::Void ÒÓı‡ÌËÚ¸ToolStripMenuItem_Click(System::Object^ sender, S
 }
 private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 	redacted = true;
+	count->Text = System::Convert::ToString(textBox1->TextLength);
+	count2->Text = System::Convert::ToString(textBox1->Lines->Length);
 }
 private: System::Void ‚˚ıÓ‰ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
 	System::Windows::Forms::Application::Exit();
@@ -340,12 +454,46 @@ private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) 
 	try
 	{
 		array<String^>^ lines = System::IO::File::ReadAllLines(System::IO::Path::Combine(Application::StartupPath, L"settings.setting"));
-		if (lines[0] == "black")
+		if (lines[35] == "black")
 		{
 			this->BackColor = System::Drawing::Color::Black;
 			this->ForeColor = System::Drawing::Color::White;
 			textBox1->BackColor = System::Drawing::Color::Black;
 			textBox1->ForeColor = System::Drawing::Color::White;
+		}
+		if (lines[34] == "en")
+		{
+			Ù‡ÈÎToolStripMenuItem->Text = lines[0];
+			ÒÂ‚ËÒToolStripMenuItem->Text = lines[1];
+			Ô‡‚Í‡ToolStripMenuItem->Text = lines[2];
+			ÒÓÁ‰‡Ú¸ToolStripMenuItem->Text = lines[3];
+			ÓÚÍ˚Ú¸ToolStripMenuItem->Text = lines[4];
+			ÒÓı‡ÌËÚ¸ToolStripMenuItem->Text = lines[5];
+			‚˚ıÓ‰ToolStripMenuItem->Text = lines[6];
+			Ì‡ÒÚÓÈÍËToolStripMenuItem->Text = lines[7];
+			¯ËÙÚToolStripMenuItem->Text = lines[8];
+			ÍÓÔËÓ‚‡Ú¸ToolStripMenuItem->Text = lines[9];
+			‚ÒÚ‡‚ËÚ¸ToolStripMenuItem->Text = lines[10];
+			‚˚ÂÁ‡Ú¸toolStripMenuItem1->Text = lines[11];
+			ÒËÏ‚ÓÎÓ‚toolStripMenuItem->Text = lines[12];
+			ÒËÏ‚ÓÎÓ‚ToolStripMenuItem2->Text = lines[13];
+		}
+		else if (lines[34] == "ru")
+		{
+			Ù‡ÈÎToolStripMenuItem->Text = lines[17];
+			ÒÂ‚ËÒToolStripMenuItem->Text = lines[18];
+			Ô‡‚Í‡ToolStripMenuItem->Text = lines[19];
+			ÒÓÁ‰‡Ú¸ToolStripMenuItem->Text = lines[20];
+			ÓÚÍ˚Ú¸ToolStripMenuItem->Text = lines[21];
+			ÒÓı‡ÌËÚ¸ToolStripMenuItem->Text = lines[22];
+			‚˚ıÓ‰ToolStripMenuItem->Text = lines[23];
+			Ì‡ÒÚÓÈÍËToolStripMenuItem->Text = lines[24];
+			¯ËÙÚToolStripMenuItem->Text = lines[25];
+			ÍÓÔËÓ‚‡Ú¸ToolStripMenuItem->Text = lines[26];
+			‚ÒÚ‡‚ËÚ¸ToolStripMenuItem->Text = lines[27];
+			‚˚ÂÁ‡Ú¸toolStripMenuItem1->Text = lines[28];
+			ÒËÏ‚ÓÎÓ‚toolStripMenuItem->Text = lines[29];
+			ÒËÏ‚ÓÎÓ‚ToolStripMenuItem2->Text = lines[30];
 		}
 	}
 	catch (System::Exception^ ex)
@@ -364,6 +512,15 @@ private: System::Void ¯ËÙÚToolStripMenuItem_Click(System::Object^ sender, Syste
 	{
 		textBox1->Font = fontDialog1->Font;
 	}
+}
+private: System::Void ÍÓÔËÓ‚‡Ú¸ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	textBox1->Copy();
+}
+private: System::Void ‚ÒÚ‡‚ËÚ¸ToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	textBox1->Paste();
+}
+private: System::Void ‚˚ÂÁ‡Ú¸toolStripMenuItem1_Click(System::Object^ sender, System::EventArgs^ e) {
+	textBox1->Cut();
 }
 };
 }
