@@ -4,5 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="notepaddotnet/notepaddotnet.vcxproj" />
-  <Project Path="notepaddotnetsetup/notepaddotnetsetup.vdproj" Type="Installer" />
+  <Project Path="notepaddotnetsetup/notepaddotnetsetup.vdproj" Type="Installer">
+    <Build Solution="Release|x64" />
+  </Project>
 </Solution>
