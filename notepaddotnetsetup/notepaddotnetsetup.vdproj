@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_9696789A528E4C70AE11191658C2CDF0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_B080E7566A1882A57D225ABCB707FF3E"
         "OwnerKey" = "8:_CFF5934916484BDEB59CACF1CEA35468"
         "MsmSig" = "8:_UNDEFINED"
@@ -150,6 +156,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9696789A528E4C70AE11191658C2CDF0"
+            {
+            "SourcePath" = "8:..\\notepaddotnet\\settings.setting"
+            "TargetName" = "8:settings.setting"
+            "Tag" = "8:"
+            "Folder" = "8:_159F53FB8027438A810BB46E8E3A7B89"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B080E7566A1882A57D225ABCB707FF3E"
             {
             "SourcePath" = "8:VCRUNTIME140.dll"
@@ -269,7 +295,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:notepaddotnet"
         "ProductCode" = "8:{F8DB3E98-5749-432F-AB1D-401FB8FA1D46}"
-        "PackageCode" = "8:{91AA544E-3987-413C-AA30-214424F7A056}"
+        "PackageCode" = "8:{8E6DFF59-FD67-45B4-8600-2D875BEDF2E5}"
         "UpgradeCode" = "8:{17B1F4D9-2526-4013-94D9-633BA5748FAF}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
